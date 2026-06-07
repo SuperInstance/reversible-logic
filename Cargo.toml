@@ -1,0 +1,12 @@
+[package]
+name = "reversible-logic"
+version = "0.1.0"
+edition = "2024"
+description = "Reversible computing: logic gates and circuits that preserve information"
+license = "MIT"
+repository = "https://github.com/SuperInstance/reversible-logic"
+keywords = ["reversible", "computing", "quantum", "logic-gates", "circuits"]
+categories = ["algorithms", "data-structures", "science"]
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
